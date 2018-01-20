@@ -1,0 +1,1076 @@
+bhargav@bhargav-HP-Pavilion-Notebook:~$ git --version
+git version 2.7.4
+bhargav@bhargav-HP-Pavilion-Notebook:~$ pwd
+/home/bhargav
+bhargav@bhargav-HP-Pavilion-Notebook:~$ ls
+Desktop           Kaggle      Public           submission3.csv  test.csv
+Documents         Music       __pycache__      submission4.csv  train.csv
+Downloads         New Folder  submission1.csv  submission5.csv  Untitled.ipynb
+examples.desktop  Pictures    submission2.csv  Templates        Videos
+bhargav@bhargav-HP-Pavilion-Notebook:~$ mkdir koss
+bhargav@bhargav-HP-Pavilion-Notebook:~$ cd koss
+bhargav@bhargav-HP-Pavilion-Notebook:~/koss$ cd ../..
+bhargav@bhargav-HP-Pavilion-Notebook:/home$ cd koss
+bash: cd: koss: No such file or directory
+bhargav@bhargav-HP-Pavilion-Notebook:/home$ cd bhargav
+bhargav@bhargav-HP-Pavilion-Notebook:~$ cd ~/koss
+bhargav@bhargav-HP-Pavilion-Notebook:~/koss$ pwd
+/home/bhargav/koss
+bhargav@bhargav-HP-Pavilion-Notebook:~/koss$ cd ~
+bhargav@bhargav-HP-Pavilion-Notebook:~$ pwd
+/home/bhargav
+bhargav@bhargav-HP-Pavilion-Notebook:~$ cd ~/koss
+bhargav@bhargav-HP-Pavilion-Notebook:~/koss$ touch hello.txt
+bhargav@bhargav-HP-Pavilion-Notebook:~/koss$ ls
+hello.txt
+bhargav@bhargav-HP-Pavilion-Notebook:~/koss$ rm hello.txt
+bhargav@bhargav-HP-Pavilion-Notebook:~/koss$ ls
+bhargav@bhargav-HP-Pavilion-Notebook:~/koss$ pwd
+/home/bhargav/koss
+bhargav@bhargav-HP-Pavilion-Notebook:~/koss$ cd
+bhargav@bhargav-HP-Pavilion-Notebook:~$ pwd
+/home/bhargav
+bhargav@bhargav-HP-Pavilion-Notebook:~$ rm -r koss
+bhargav@bhargav-HP-Pavilion-Notebook:~$ pwd
+/home/bhargav
+bhargav@bhargav-HP-Pavilion-Notebook:~$ ls
+Desktop    examples.desktop  New Folder  __pycache__      submission3.csv  Templates  Untitled.ipynb
+Documents  Kaggle            Pictures    submission1.csv  submission4.csv  test.csv   Videos
+Downloads  Music             Public      submission2.csv  submission5.csv  train.csv
+bhargav@bhargav-HP-Pavilion-Notebook:~$ mkdir
+mkdir: missing operand
+Try 'mkdir --help' for more information.
+bhargav@bhargav-HP-Pavilion-Notebook:~$ mkdir koss
+bhargav@bhargav-HP-Pavilion-Notebook:~$ ls
+Desktop    examples.desktop  Music       Public           submission2.csv  submission5.csv  train.csv
+Documents  Kaggle            New Folder  __pycache__      submission3.csv  Templates        Untitled.ipynb
+Downloads  koss              Pictures    submission1.csv  submission4.csv  test.csv         Videos
+bhargav@bhargav-HP-Pavilion-Notebook:~$ cd koss
+bhargav@bhargav-HP-Pavilion-Notebook:~/koss$ pwd
+/home/bhargav/koss
+bhargav@bhargav-HP-Pavilion-Notebook:~/koss$ touch sample.txt
+bhargav@bhargav-HP-Pavilion-Notebook:~/koss$ ls
+sample.txt
+bhargav@bhargav-HP-Pavilion-Notebook:~/koss$ env | grep -i proxy
+NO_PROXY=localhost,127.0.0.0/8,::1
+http_proxy=http://172.16.2.30:8080/
+https_proxy=http://172.16.2.30:8080/
+HTTPS_PROXY=http://172.16.2.30:8080/
+no_proxy=localhost,127.0.0.0/8,::1
+bhargav@bhargav-HP-Pavilion-Notebook:~/koss$ cat hello.txt
+cat: hello.txt: No such file or directory
+bhargav@bhargav-HP-Pavilion-Notebook:~/koss$ cat sample.txt
+bhargav@bhargav-HP-Pavilion-Notebook:~/koss$ nano hello.txt
+bhargav@bhargav-HP-Pavilion-Notebook:~/koss$ cat sample.txt
+bhargav@bhargav-HP-Pavilion-Notebook:~/koss$ cat hello.txt
+Hello, world! 
+bhargav@bhargav-HP-Pavilion-Notebook:~/koss$ ls
+hello.txt  sample.txt
+bhargav@bhargav-HP-Pavilion-Notebook:~/koss$ pwd
+/home/bhargav/koss
+bhargav@bhargav-HP-Pavilion-Notebook:~/koss$ cat ~/.bash_history
+pwd
+ls
+cd Desktop
+ls
+emacs hello_linux &
+emacs hello &
+sudo tee /etc/resolv.conf <<< "nameserver 127.0.1.1"
+sudo service network-manager restart
+sudo update-grub
+sudo update
+sudo apt update
+nm-tool
+dm-tool
+?nm
+?tool
+wifi not woking
+sudo apt installtlp
+sudo apt install tlp
+wifi
+apt-get update
+Y
+yes
+sudo apt get update
+sudo apt-get update
+sudo apt-get install wine
+sudo apt-get install vlc
+--fix-missing
+sudo apt-get --fix-missing
+--fix missing
+sudo apt-get update
+sudo apt-get install vlc
+HW%.py
+quit()
+python HW5.py
+python
+python HW5.py
+pwd
+g++
+g++ /version
+g++/version
+g++-version
+g++ -version
+g++ --version
+sudo cp jdk-8u144-linux-x64.tar.gz /opt
+sudo cp jdk-8u144-linux-x64.tar.gz /opt/java
+cd /opt/java
+cd /opt
+ls
+cd java
+sudo rm java 
+cd ..
+ls
+sudo cp jdk-8u144-linux-x64.tar.gz /opt
+cd /opt
+ls
+sudo tar -xvf jdk-8u144-linux-x64.tar.gz 
+ls
+cd jdk1.8.0_144/
+ls
+sudo cp jdk-8u144-linux-x64.tar.gz /usr/local/java
+cd /usr/local/java
+sudo cp -r jdk-8u144-linux-x64.tar.gz /usr/local/java
+cd /usr/local/java
+/usr/local/java
+sudo /usr/local/java
+sudo cd /usr/local
+cd /usr/local
+ls
+sudo rm java
+sudo mkdir java
+ls
+cd ..
+cd /home
+ls
+cd /bhargav
+cd bhargav
+ls
+cd Downloads
+sudo cp -r jdk-8u144-linux-x64.tar.gz /usr/local/java
+cd /usr/local/java
+ls
+sudo tar xvzf jdk-8u144-linux-x64.tar.gz 
+sudogedit /etc/profile
+sudo gedit /etc/profile
+sudo update-alternatives --install "/usr/bin/java" "java" "/usr/local/java/jdk1.8.0_144/jre/bin/java" 1
+sudo update-alternatives --install "/usr/bin/java" "java" "/usr/local/java/jdk1.8.0_144/bin/java" 1
+sudo update-alternatives --install "/usr/bin/javaws" "javaws" "/usr/local/java/jdk1.8.0_144/bin/javaws" 1
+sudo update-alternatives --set java /usr/local/java/jdk1.8.0_144/bin/java
+sudo update-alternatives --set javaws /usr/local/java/jdk1.8.0_144/bin/javaws
+/etc/profile
+sudo /etc/profile
+./etc/profile
+. /etc/profile
+java -version
+sudo rm jdk-8u144-linux-x64.tar.gz 
+sudo rm -r jdk1.8.0_144/
+java -version
+javac -version
+javaws -version
+sudo apt-get update
+./ideacrawlerserver
+pwd
+ideacrawlerserver
+wget -q -0 - https://dl-ssl/google.com/linux/linus_signing_key.pub | sudo apt -key add -
+wget -q -o - https://dl-ssl/google.com/linux/linus_signing_key.pub | sudo apt -key add -
+wget -q -o - https://dl-ssl/google.com/linux/linus_signing_key.pub | sudo apt - key add -
+wget -q -o - https://dl-ssl/google.com/linux/linus_signing_key.pub | sudo apt 
+wget -q -o - https://dl-ssl/google.com/linux/linus_signing_key.pub 
+pip install --user grpcio==1.6.0 grpcio-tools==1.6.0
+sudo apt install python-pip
+pip install --user grcipo==1.6.0 grcipo-tools==1.6.0
+pip install --upgrade pip
+pip install google
+pip install numpy
+sudo pip install --user grcipo==1.6.0 grcipo-tools==1.6.0
+pip install --user grcipo==1.6.0 grcipo-tools==1.6.0
+pip install --user grcipo grcipo-tools==1.6.0
+pip install --user google
+pip install --user grcipo==1.6.0 grcipo-tools==1.6.0
+pip install --user numpy
+pip install --user matplotlib
+pip install --user sklearn
+pip install --user sympy
+pip install --user scipy
+pip install --user Pmw
+pip install --user Tkinter
+python import Tkinter
+python
+pip install --user tkinter
+python HTTPCode.py
+python PipeCandy.py
+python3 PipeCandy.py
+python HTTPCode.py
+pip install requests
+pip install --user srequests
+pip install --user requests
+python3 HTTPCode.py
+python simple.py
+pip install simple.py
+python simple.py
+python ideacrawler_pb2.py
+pip install --user urllib.request
+pip install --user urllib
+pip install --user requests
+pip install --user urllib
+pi install --user urllib.request
+pip install --user urllib.request
+pip install --user grpc
+pip install --user signal
+pip install --user socket
+./ideacrawlerserver
+python simple.py
+pip instal --user grcipo==1.6.0
+pip install --user grcipo==1.6.0
+pip install --user grcipo
+pip install --user protobuf
+pip install socket
+pip install --user socket
+pip install --user grpc
+pip install --user gevent
+pip install --user coros
+pip install --user grpc-tools
+pip install --user grpcio==1.6.0 grpcio-tools==1.6.30
+pip install --user grpico-tools==1.6.0
+pip install --user grpcio-tools==1.6.0
+python pyclient.py
+python ideacrawler_pb2.py
+python ideacrawler_pb2_grpc.py
+python pyclient.py
+python simple.py
+pwd
+python3 HTTPCpde.py
+python3 HTTPCode.py
+idle ver2.py & disown
+python3 ver2.py
+idle ver2.py & disown
+idle
+sudo apt install idle
+idle
+idle ver2.py & disown
+idle
+idle ver2.py & disown
+python3 ver2.py
+python3 4521.py
+31 28 31 30 31 30 31 31 30 31 28 31
+idle3
+sudo apt install idle3
+idle3
+./ideacrawlerserver
+./ideacrawlerserver --LogFile /dev/stdout
+quit() exit
+python simple.py
+idle simple.py & disown
+python
+idle simple.py & disown
+idle3 new.py & diswon
+pwd
+ls
+idle3 new.py & disown
+idle3 new1.py & disown
+idle new1.py & disown
+idle ver2.py & disown
+idle simple.py & disown
+2to3 exp.py
+2to3 -w  exp.py
+pip install --user lib3to2
+pip3 install --user lib3to2
+sudo apt install python3-pip
+pip3 install --user lib3to2
+pip3 install --user lib2to3
+pip3 install bhargav
+jupyter notebook
+jupyter contrib nbextension install --user
+pip3 install --upgrade pip
+pip3 install jupyter
+pip3 install --user jupyter
+jupyter
+jupyter notebook
+pip install -user seaborn
+pip install --user seaborn
+pip3 install --user seaborn
+sudo apt-get install texlive-full
+sudo apt-get install texmaker
+jupyter notebook
+./ideacrawlerserver --LogFile /dev/stdout
+idle ver2.py & disown
+idle simple.py & disown
+isle ver2.py & diswon
+idle ver2.py & disown
+isle ver2.py & disown
+idle ver2.py & disown
+idle simple.py & disown
+pip install --user yaml
+pip install yaml
+sudo pip install yam
+sudo pip install yaml
+sudo apt-get install python-yaml
+python
+idle
+idle PipeCandy.py & disown
+idle Product or Non-Product URL.py & disown
+pip install --user pandas
+idle Untitled1.py & disown
+jupyter notebook
+./ideacrawlerserver --LogFile /dev/stdout
+idle ver2.py & disown
+jupyter notebook
+git --version
+sudo apt git install
+sudo apt install git
+git --version
+env | grep proxy
+bhargav@bhargav-HP-Pavilion-Notebook:~/koss$ cd
+bhargav@bhargav-HP-Pavilion-Notebook:~$ mkdir test
+bhargav@bhargav-HP-Pavilion-Notebook:~$ cd test
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ pwd
+/home/bhargav/test
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git config
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_regex]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ config --global user.name btg1998
+No command 'config' found, did you mean:
+ Command 'vconfig' from package 'vlan' (main)
+ Command 'zconfig' from package 'python-zconfig' (universe)
+ Command 'iconfig' from package 'ipmiutil' (universe)
+ Command 'fconfig' from package 'redboot-tools' (universe)
+ Command 'mconfig' from package 'mono-devel' (main)
+config: command not found
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git config --global user.name btg1998
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git config --global user.email dindukurthivarrsan@gmail.com
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git config --global http.proxy 172.16.2.30:8080
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git config --global core.editor nano 
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ adsfadsf #
+adsfadsf: command not found
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git init
+Initialized empty Git repository in /home/bhargav/test/.git/
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git status
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ touch a.c
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ ls
+a.c
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ nano a.c
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ cat a.c
+#include<stdio.h>
+int main()
+{ 
+printf("Hello World!");
+}
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	a.c
+
+nothing added to commit but untracked files present (use "git add" to track)
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git add a.c
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   a.c
+
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git commit -m "First Commit"
+[master (root-commit) 527ea69] First Commit
+ 1 file changed, 5 insertions(+)
+ create mode 100644 a.c
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git status
+On branch master
+nothing to commit, working directory clean
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git status
+On branch master
+nothing to commit, working directory clean
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ ls
+a.c
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ nano a.c
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ cat a.c
+#include<stdio.h>
+int main()
+{ 
+printf("Hello World!");
+printf("Hey0 !!");
+}
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git diff
+diff --git a/a.c b/a.c
+index 276d0c7..e476449 100644
+--- a/a.c
++++ b/a.c
+@@ -2,4 +2,5 @@
+ int main()
+ { 
+ printf("Hello World!");
++printf("Hey0 !!");
+ }
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ nano a.c
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ cat a.c
+
+#include<stdio.h>
+int main()
+{ 
+printf("Hello World!");
+printf("Hey0 !!");
+int a;
+}
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git diff
+diff --git a/a.c b/a.c
+index 276d0c7..9487a32 100644
+--- a/a.c
++++ b/a.c
+@@ -1,5 +1,8 @@
++
+ #include<stdio.h>
+ int main()
+ { 
+ printf("Hello World!");
++printf("Hey0 !!");
++int a;
+ }
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git add.c
+git: 'add.c' is not a git command. See 'git --help'.
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git add a.c
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   a.c
+
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git diff
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   a.c
+
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git diff --cached
+diff --git a/a.c b/a.c
+index 276d0c7..9487a32 100644
+--- a/a.c
++++ b/a.c
+@@ -1,5 +1,8 @@
++
+ #include<stdio.h>
+ int main()
+ { 
+ printf("Hello World!");
++printf("Hey0 !!");
++int a;
+ }
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   a.c
+
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git log
+commit 527ea69fd7ba60345fc2e1a247321f907ed08491
+Author: btg1998 <dindukurthivarrsan@gmail.com>
+Date:   Sat Jan 20 16:47:26 2018 +0530
+
+    First Commit
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git commit -m 'ver 2'
+[master 4e387f6] ver 2
+ 1 file changed, 3 insertions(+)
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git log
+commit 4e387f66c0138cc5514fea7fddabfa8e38c41c81
+Author: btg1998 <dindukurthivarrsan@gmail.com>
+Date:   Sat Jan 20 17:09:00 2018 +0530
+
+    ver 2
+
+commit 527ea69fd7ba60345fc2e1a247321f907ed08491
+Author: btg1998 <dindukurthivarrsan@gmail.com>
+Date:   Sat Jan 20 16:47:26 2018 +0530
+
+    First Commit
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ nano a.c
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ nano b.txt
+Use "fg" to return to nano.
+
+[1]+  Stopped                 nano b.txt
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ ls 
+a.c  b.txt
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ cat a.c
+
+#include<stdio.h>
+int main()
+{ 
+printf("Hello World!");
+printf("Hey0 !!");
+printf(" a");
+}
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ cat b.txt
+adfadfasdf
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   a.c
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.b.txt.swp
+	b.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git diff
+diff --git a/a.c b/a.c
+index 9487a32..1483ba6 100644
+--- a/a.c
++++ b/a.c
+@@ -4,5 +4,5 @@ int main()
+ { 
+ printf("Hello World!");
+ printf("Hey0 !!");
+-int a;
++printf(" a");
+ }
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git diff --cached
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git add b.txt
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git diff
+diff --git a/a.c b/a.c
+index 9487a32..1483ba6 100644
+--- a/a.c
++++ b/a.c
+@@ -4,5 +4,5 @@ int main()
+ { 
+ printf("Hello World!");
+ printf("Hey0 !!");
+-int a;
++printf(" a");
+ }
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git diff --cached
+diff --git a/b.txt b/b.txt
+new file mode 100644
+index 0000000..237778b
+--- /dev/null
++++ b/b.txt
+@@ -0,0 +1 @@
++adfadfasdf
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   b.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   a.c
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.b.txt.swp
+
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git commit
+[master f45dca4] ver 3
+ 1 file changed, 1 insertion(+)
+ create mode 100644 b.txt
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   a.c
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.b.txt.swp
+
+no changes added to commit (use "git add" and/or "git commit -a")
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git remote add origin https://github.com/btg1998/testing.git
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git push origin origin master
+error: src refspec origin does not match any.
+error: failed to push some refs to 'https://github.com/btg1998/testing.git'
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git push origin master
+Username for 'https://github.com': btg1998
+Password for 'https://btg1998@github.com': 
+Counting objects: 9, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (9/9), 783 bytes | 0 bytes/s, done.
+Total 9 (delta 0), reused 0 (delta 0)
+To https://github.com/btg1998/testing.git
+ * [new branch]      master -> master
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   a.c
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.b.txt.swp
+
+no changes added to commit (use "git add" and/or "git commit -a")
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git diff
+diff --git a/a.c b/a.c
+index 9487a32..1483ba6 100644
+--- a/a.c
++++ b/a.c
+@@ -4,5 +4,5 @@ int main()
+ { 
+ printf("Hello World!");
+ printf("Hey0 !!");
+-int a;
++printf(" a");
+ }
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git add .
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   .b.txt.swp
+	modified:   a.c
+
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git diff
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git diff --cached
+diff --git a/.b.txt.swp b/.b.txt.swp
+new file mode 100644
+index 0000000..7cd587b
+Binary files /dev/null and b/.b.txt.swp differ
+diff --git a/a.c b/a.c
+index 9487a32..1483ba6 100644
+--- a/a.c
++++ b/a.c
+@@ -4,5 +4,5 @@ int main()
+ { 
+ printf("Hello World!");
+ printf("Hey0 !!");
+-int a;
++printf(" a");
+ }
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git commit
+[master 9c32283] ver 4
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+ create mode 100644 .b.txt.swp
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git status
+On branch master
+nothing to commit, working directory clean
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git diff
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git diff --cached
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git push origin master
+Username for 'https://github.com': btg1998
+Password for 'https://btg1998@github.com': 
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 431 bytes | 0 bytes/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/btg1998/testing.git
+   f45dca4..9c32283  master -> master
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ pwd
+/home/bhargav/test
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ touch all_commands_on_terminal_used.txt
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ nano all_commands_on_terminal_used.txt
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ nano all_commands_on_terminal_used.txt
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	all_commands_on_terminal_used.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git add ^C
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git add all_commands_on_terminal_used.txt
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   all_commands_on_terminal_used.txt
+
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git diff
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git diff--cached
+git: 'diff--cached' is not a git command. See 'git --help'.
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git diff --cached
+diff --git a/all_commands_on_terminal_used.txt b/all_commands_on_terminal_used.txt
+new file mode 100644
+index 0000000..3db6721
+--- /dev/null
++++ b/all_commands_on_terminal_used.txt
+@@ -0,0 +1,473 @@
++bhargav@bhargav-HP-Pavilion-Notebook:~$ git --version
++git version 2.7.4
++bhargav@bhargav-HP-Pavilion-Notebook:~$ pwd
++/home/bhargav
++bhargav@bhargav-HP-Pavilion-Notebook:~$ ls
++Desktop           Kaggle      Public           submission3.csv  test.csv
++Documents         Music       __pycache__      submission4.csv  train.csv
++Downloads         New Folder  submission1.csv  submission5.csv  Untitled.ipynb
++examples.desktop  Pictures    submission2.csv  Templates        Videos
++bhargav@bhargav-HP-Pavilion-Notebook:~$ mkdir koss
++bhargav@bhargav-HP-Pavilion-Notebook:~$ cd koss
++bhargav@bhargav-HP-Pavilion-Notebook:~/koss$ cd ../..
++bhargav@bhargav-HP-Pavilion-Notebook:/home$ cd koss
++bash: cd: koss: No such file or directory
++bhargav@bhargav-HP-Pavilion-Notebook:/home$ cd bhargav
++bhargav@bhargav-HP-Pavilion-Notebook:~$ cd ~/koss
++bhargav@bhargav-HP-Pavilion-Notebook:~/koss$ pwd
++/home/bhargav/koss
++bhargav@bhargav-HP-Pavilion-Notebook:~/koss$ cd ~
++bhargav@bhargav-HP-Pavilion-Notebook:~$ pwd
++/home/bhargav
++bhargav@bhargav-HP-Pavilion-Notebook:~$ cd ~/koss
++bhargav@bhargav-HP-Pavilion-Notebook:~/koss$ touch hello.txt
++bhargav@bhargav-HP-Pavilion-Notebook:~/koss$ ls
++hello.txt
++bhargav@bhargav-HP-Pavilion-Notebook:~/koss$ rm hello.txt
++bhargav@bhargav-HP-Pavilion-Notebook:~/koss$ ls
++bhargav@bhargav-HP-Pavilion-Notebook:~/koss$ pwd
++/home/bhargav/koss
++bhargav@bhargav-HP-Pavilion-Notebook:~/koss$ cd
++bhargav@bhargav-HP-Pavilion-Notebook:~$ pwd
++/home/bhargav
++bhargav@bhargav-HP-Pavilion-Notebook:~$ rm -r koss
++bhargav@bhargav-HP-Pavilion-Notebook:~$ pwd
++/home/bhargav
++bhargav@bhargav-HP-Pavilion-Notebook:~$ ls
++Desktop    examples.desktop  New Folder  __pycache__      submission3.csv  Templates  Untitled.ipynb
++Documents  Kaggle            Pictures    submission1.csv  submission4.csv  test.csv   Videos
++Downloads  Music             Public      submission2.csv  submission5.csv  train.csv
++bhargav@bhargav-HP-Pavilion-Notebook:~$ mkdir
++mkdir: missing operand
++Try 'mkdir --help' for more information.
++bhargav@bhargav-HP-Pavilion-Notebook:~$ mkdir koss
++bhargav@bhargav-HP-Pavilion-Notebook:~$ ls
++Desktop    examples.desktop  Music       Public           submission2.csv  submission5.csv  train.csv
++Documents  Kaggle            New Folder  __pycache__      submission3.csv  Templates        Untitled.ipynb
++Downloads  koss              Pictures    submission1.csv  submission4.csv  test.csv         Videos
++bhargav@bhargav-HP-Pavilion-Notebook:~$ cd koss
++bhargav@bhargav-HP-Pavilion-Notebook:~/koss$ pwd
++/home/bhargav/koss
++bhargav@bhargav-HP-Pavilion-Notebook:~/koss$ touch sample.txt
++bhargav@bhargav-HP-Pavilion-Notebook:~/koss$ ls
++sample.txt
++bhargav@bhargav-HP-Pavilion-Notebook:~/koss$ env | grep -i proxy
++NO_PROXY=localhost,127.0.0.0/8,::1
++http_proxy=http://172.16.2.30:8080/
++https_proxy=http://172.16.2.30:8080/
++HTTPS_PROXY=http://172.16.2.30:8080/
++no_proxy=localhost,127.0.0.0/8,::1
++bhargav@bhargav-HP-Pavilion-Notebook:~/koss$ cat hello.txt
++cat: hello.txt: No such file or directory
++bhargav@bhargav-HP-Pavilion-Notebook:~/koss$ cat sample.txt
++bhargav@bhargav-HP-Pavilion-Notebook:~/koss$ nano hello.txt
++bhargav@bhargav-HP-Pavilion-Notebook:~/koss$ cat sample.txt
++bhargav@bhargav-HP-Pavilion-Notebook:~/koss$ cat hello.txt
++Hello, world! 
++bhargav@bhargav-HP-Pavilion-Notebook:~/koss$ ls
++hello.txt  sample.txt
++bhargav@bhargav-HP-Pavilion-Notebook:~/koss$ pwd
++
++env | grep proxy
++bhargav@bhargav-HP-Pavilion-Notebook:~/koss$ cd
++bhargav@bhargav-HP-Pavilion-Notebook:~$ mkdir test
+
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ 
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   all_commands_on_terminal_used.txt
+
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git commit -m 'ver5'
+[master 86b76e8] ver5
+ 1 file changed, 473 insertions(+)
+ create mode 100644 all_commands_on_terminal_used.txt
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git status
+On branch master
+nothing to commit, working directory clean
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ cd ~
+bhargav@bhargav-HP-Pavilion-Notebook:~$ git clone all_commands_on_terminal_used.txt
+fatal: repository 'all_commands_on_terminal_used.txt' does not exist
+bhargav@bhargav-HP-Pavilion-Notebook:~$ cd ~
+bhargav@bhargav-HP-Pavilion-Notebook:~$ git clone https://github.com/btg1998/sandbox.git
+Cloning into 'sandbox'...
+remote: Counting objects: 1091, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 1091 (delta 0), reused 3 (delta 0), pack-reused 1087
+Receiving objects: 100% (1091/1091), 119.80 KiB | 40.00 KiB/s, done.
+Resolving deltas: 100% (375/375), done.
+Checking connectivity... done.
+bhargav@bhargav-HP-Pavilion-Notebook:~$ ls
+Desktop    examples.desktop  Music       Public       submission1.csv  submission4.csv  test       Untitled.ipynb
+Documents  Kaggle            New Folder  __pycache__  submission2.csv  submission5.csv  test.csv   Videos
+Downloads  koss              Pictures    sandbox      submission3.csv  Templates        train.csv
+bhargav@bhargav-HP-Pavilion-Notebook:~$ cd test
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git status
+On branch master
+nothing to commit, working directory clean
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git commit origin master
+error: pathspec 'origin' did not match any file(s) known to git.
+error: pathspec 'master' did not match any file(s) known to git.
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git push origin master
+Username for 'https://github.com': btg1998
+Password for 'https://btg1998@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 3.15 KiB | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/btg1998/testing.git
+   9c32283..86b76e8  master -> master
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ pwd
+/home/bhargav/test
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ cd
+bhargav@bhargav-HP-Pavilion-Notebook:~$ ls
+Desktop    examples.desktop  Music       Public       submission1.csv  submission4.csv  test       Untitled.ipynb
+Documents  Kaggle            New Folder  __pycache__  submission2.csv  submission5.csv  test.csv   Videos
+Downloads  koss              Pictures    sandbox      submission3.csv  Templates        train.csv
+bhargav@bhargav-HP-Pavilion-Notebook:~$ cd
+bhargav@bhargav-HP-Pavilion-Notebook:~$ git clone https://github.com/btg1998/git-sandbox.git
+Cloning into 'git-sandbox'...
+remote: Counting objects: 193, done.
+remote: Total 193 (delta 0), reused 0 (delta 0), pack-reused 193
+Receiving objects: 100% (193/193), 24.41 KiB | 0 bytes/s, done.
+Resolving deltas: 100% (46/46), done.
+Checking connectivity... done.
+bhargav@bhargav-HP-Pavilion-Notebook:~$ ls
+Desktop    examples.desktop  koss        Pictures     sandbox          submission3.csv  Templates  train.csv
+Documents  git-sandbox       Music       Public       submission1.csv  submission4.csv  test       Untitled.ipynb
+Downloads  Kaggle            New Folder  __pycache__  submission2.csv  submission5.csv  test.csv   Videos
+bhargav@bhargav-HP-Pavilion-Notebook:~$ cd git-sandbox
+bhargav@bhargav-HP-Pavilion-Notebook:~/git-sandbox$ ls
+README.md
+bhargav@bhargav-HP-Pavilion-Notebook:~/git-sandbox$ git log
+commit d5dbcccdf483c83d50dcf4996f68709904a61fa4
+Merge: 872813e bb3520b
+Author: Pranit Bauva <pranit.bauva@gmail.com>
+Date:   Tue May 9 19:20:16 2017 +0530
+
+    Merge pull request #69 from kaus19/newbr
+    
+    Newbr
+
+commit bb3520b42d2370fe65999c947c1c0308c7febb64
+Author: Kaustubh Maloo <kaustubh.maloo@gmail.com>
+Date:   Tue May 9 19:12:01 2017 +0530
+
+    Updated
+
+commit 872813eb81ca68171427a39e3193710c29453872
+Merge: 841a184 8ee950e
+Author: Pranit Bauva <pranit.bauva@gmail.com>
+Date:   Sat Jan 21 11:48:18 2017 +0530
+
+    Merge pull request #68 from bc206/patch-1
+    
+    add danish
+
+commit 8ee950ed892645a9e44b976e4409faed8987e00c
+Author: Danish Imam <md.i.imam3495t@gmail.com>
+Date:   Sat Jan 21 11:10:17 2017 +0530
+
+    added new updates
+
+commit 841a184923b171e15d7d0ad8f0d90fddbbb361c0
+Merge: 7652818 816d811
+Author: Parth Verma <vermaparth97@gmail.com>
+Date:   Tue Dec 6 23:29:34 2016 +0530
+
+    Merge pull request #67 from MandarMK/new
+    
+    Added Name
+
+commit 7652818ddbfa15c8e5ea5fc045ab31bafc846e6b
+Merge: 01c6294 d5f21f3
+Author: Nitin Choudhary <nitin.iitkgp23@gmail.com>
+Date:   Sun Dec 4 15:31:12 2016 +0530
+
+    Merge pull request #65 from rava-dosa/apoorvatry
+    
+    Merge my github user name ,email id
+
+commit d5f21f3b6a5c58a743bda0b7d40a407bccb9111a
+Merge: 0762522 01c6294
+Author: rava-dosa <apoorvakumar169@gmail.com>
+Date:   Mon Dec 5 14:55:03 2016 +0530
+
+bhargav@bhargav-HP-Pavilion-Notebook:~/git-sandbox$ git checkout -b temp
+Switched to a new branch 'temp'
+bhargav@bhargav-HP-Pavilion-Notebook:~/git-sandbox$ git status
+On branch temp
+nothing to commit, working directory clean
+bhargav@bhargav-HP-Pavilion-Notebook:~/git-sandbox$ ls
+README.md
+bhargav@bhargav-HP-Pavilion-Notebook:~/git-sandbox$ git branch
+  master
+* temp
+bhargav@bhargav-HP-Pavilion-Notebook:~/git-sandbox$ nano btg1998.txt
+bhargav@bhargav-HP-Pavilion-Notebook:~/git-sandbox$ git add .
+bhargav@bhargav-HP-Pavilion-Notebook:~/git-sandbox$ git diff
+bhargav@bhargav-HP-Pavilion-Notebook:~/git-sandbox$ git diff --cached
+diff --git a/btg1998.txt b/btg1998.txt
+new file mode 100644
+index 0000000..e0e37f7
+--- /dev/null
++++ b/btg1998.txt
+@@ -0,0 +1,2 @@
++Bhargav D
++bhargavdindukurthi1@gmail.com
+bhargav@bhargav-HP-Pavilion-Notebook:~/git-sandbox$ git commit -m "Add my details"
+[temp c45567b] Add my details
+ 1 file changed, 2 insertions(+)
+ create mode 100644 btg1998.txt
+bhargav@bhargav-HP-Pavilion-Notebook:~/git-sandbox$ git log --graph --1line
+fatal: unrecognized argument: --1line
+bhargav@bhargav-HP-Pavilion-Notebook:~/git-sandbox$ git log --graph --oneline
+* c45567b Add my details
+*   d5dbccc Merge pull request #69 from kaus19/newbr
+|\  
+| * bb3520b Updated
+| * b3cdc14 Ädd kaus
+* |   872813e Merge pull request #68 from bc206/patch-1
+|\ \  
+| * | 8ee950e added new updates
+|/ /  
+* |   841a184 Merge pull request #67 from MandarMK/new
+|\ \  
+| * | 816d811 Added Name
+| |/  
+* |   7652818 Merge pull request #65 from rava-dosa/apoorvatry
+|\ \  
+| * \   d5f21f3 Trying to add my girhub name
+| |\ \  
+| |/ /  
+|/| |   
+* | |   01c6294 Merge pull request #64 from abinashgeek/master
+|\ \ \  
+| * \ \   036a175 add Abinash Senapati
+| |\ \ \  
+| |/ / /  
+|/| | |   
+* | | |   2988d39 Merge pull request #57 from coffeelover12111997/master
+|\ \ \ \  
+| * | | | d825c57 added_user
+| | |_|/  
+| |/| |   
+* | | |   1fa036d Merge pull request #58 from arowdy98/adi
+|\ \ \ \  
+| * | | | ae67373 Added yash
+| * | | | a7716f7 add Aditya
+| |/ / /  
+* | | |   3d19dd5 Merge pull request #25 from pranitbauva1997/master
+|\ \ \ \  
+| |/ / /  
+|/| | |   
+| * | | d826595 Added Pranit Bauva
+|/ / /  
+| * | 4d06824 Added my name
+|/ /  
+| * 0762522 Trying to add my github name
+| * 757f2d8 adding my github name
+| * 684feec adding my github name
+| * eeca081 first
+|/  
+*   408a911 Merge pull request #23 from kossiitkgp/OrkoHunter-patch-1
+|\  
+| * f44e900 Add new line
+|/  
+*   2fdc172 Merge pull request #22 from OrkoHunter/new_branch
+bhargav@bhargav-HP-Pavilion-Notebook:~/git-sandbox$ git push origin temp
+Username for 'https://github.com': btg1998
+Password for 'https://btg1998@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 321 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/btg1998/git-sandbox.git
+ * [new branch]      temp -> temp
+bhargav@bhargav-HP-Pavilion-Notebook:~/git-sandbox$ pwd
+/home/bhargav/git-sandbox
+bhargav@bhargav-HP-Pavilion-Notebook:~/git-sandbox$ cd
+bhargav@bhargav-HP-Pavilion-Notebook:~$ ls
+Desktop    examples.desktop  koss        Pictures     sandbox          submission3.csv  Templates  train.csv
+Documents  git-sandbox       Music       Public       submission1.csv  submission4.csv  test       Untitled.ipynb
+Downloads  Kaggle            New Folder  __pycache__  submission2.csv  submission5.csv  test.csv   Videos
+bhargav@bhargav-HP-Pavilion-Notebook:~$ cd test
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git status
+On branch master
+nothing to commit, working directory clean
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ pwd
+/home/bhargav/test
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ ls
+a.c  all_commands_on_terminal_used.txt  b.txt
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git status
+On branch master
+nothing to commit, working directory clean
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git checkout -b temp
+Switched to a new branch 'temp'
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git status 
+On branch temp
+nothing to commit, working directory clean
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ ls
+a.c  all_commands_on_terminal_used.txt  b.txt
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ git branch
+  master
+* temp
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ touch Commands.txt
+bhargav@bhargav-HP-Pavilion-Notebook:~/test$ 
+
